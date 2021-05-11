@@ -1,0 +1,404 @@
+[
+  {
+    "description": "    Como usuario de la página\n    Quiero poder agregar productos al carrito",
+    "elements": [
+      {
+        "description": "",
+        "id": "agregar-productos-al-carrito;un-usuario-agrega-una-laptop-al-carrito",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Un usuario agrega una Laptop al carrito",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 638000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Un usuario visita demoblaze",
+            "match": {
+              "location": "features/step-definitions/generalSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "El usuario selecciona el producto \"Sony vaio i5\"",
+            "match": {
+              "location": "features/step-definitions/cartSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "El usuario agrega el producto al carrito",
+            "match": {
+              "location": "features/step-definitions/cartSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "El usuario ingresa al carrito",
+            "match": {
+              "location": "features/step-definitions/cartSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "El carrito debe mostrar la Laptop \"Sony vaio i5\"",
+            "match": {
+              "location": "features/step-definitions/cartSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 909000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login22",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "agregar-productos-al-carrito",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Agregar productos al carrito",
+    "tags": [],
+    "uri": "features/addToCart.feature"
+  },
+  {
+    "description": "    Como usuario de la página\n    Quiero poder Loguearme y Desloguearme",
+    "elements": [
+      {
+        "description": "",
+        "id": "product-store-sign-in;un-usuario-debe-poder-loguearse-en-la-página",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Un usuario debe poder loguearse en la página",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Un usuario visita demoblaze",
+            "match": {
+              "location": "features/step-definitions/generalSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "El usuario abre el modal para loguearse",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Ingresa el usuario registrado \"jrodriguez\"",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Ingresa su password registrado \"test1234\"",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Hace click en Login",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "El usuario debe aparecer logueado",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "product-store-sign-in;un-usuario-debe-poder-desloguearse-de-la-página",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Un usuario debe poder desloguearse de la página",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "Un usuario visita demoblaze",
+            "match": {
+              "location": "features/step-definitions/generalSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Un usuario se loguea con usuario \"jrodriguez\" y password \"test1234\"",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1919000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "El usuario hace click en sign out",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "El usuario debe aparecer deslogueado",
+            "match": {
+              "location": "features/step-definitions/loginSteps.js:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 14
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "product-store-sign-in",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Product Store sign in",
+    "tags": [],
+    "uri": "features/login.feature"
+  },
+  {
+    "description": "  Como usuario de la página\n  Quiero registrar una cuenta",
+    "elements": [
+      {
+        "description": "",
+        "id": "product-store-sign-in;un-usuario-debe-poder-registrarse-en-la-página",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Un usuario debe poder registrarse en la página",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Un usuario visita demoblaze",
+            "match": {
+              "location": "features/step-definitions/generalSteps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "El usuario abre el modal para registrarse",
+            "match": {
+              "location": "features/step-definitions/signupSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 345000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Ingresa el usuario \"jrodriguez\" + DD-MM-YYYY MM:SS",
+            "match": {
+              "location": "features/step-definitions/signupSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "Ingresa su password \"test1234\"",
+            "match": {
+              "location": "features/step-definitions/signupSteps.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "Hace click en Sign up",
+            "match": {
+              "location": "features/step-definitions/signupSteps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "El modal debe indicar que el registro se ha completado",
+            "match": {
+              "location": "features/step-definitions/signupSteps.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@signup",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "product-store-sign-in",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Product Store sign in",
+    "tags": [],
+    "uri": "features/signup.feature"
+  }
+]
